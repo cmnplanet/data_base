@@ -1,0 +1,54 @@
+header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+}
+
+.flex {
+  flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.maleframe {
+  flex: 1;
+
+}
+
+.vitals h2{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .50em;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.vitals h4{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .50em;
+  font-size: 18px;
+}
+
+.vitals p{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: .50em;
+  font-size: 18px;
+}
+
+#ssn{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 2em;
+  font-size: 18px;
+}
