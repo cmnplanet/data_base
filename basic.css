@@ -10,18 +10,24 @@ header {
 }
 
 .flex {
-  flex: auto;
-  flex-direction: row;
-  flex-wrap: wrap;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+
+  }
+
+.section {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  }
 
 }
 
-.maleframe {
-  flex: 1;
-
-}
-
-.vitals h2{
+.object{
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -30,25 +36,37 @@ header {
   text-decoration: underline;
 }
 
-.vitals h4{
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: .50em;
-  font-size: 18px;
-}
 
-.vitals p{
+.content{
   font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
   text-align: center;
-  line-height: .50em;
+  line-height: 1.25em;
   font-size: 18px;
 }
 
-#ssn{
+
+
+.object h1{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.25em;
+  /*font-size: 18px;*/
+}
+
+.ssn{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   line-height: 2em;
   font-size: 18px;
+  color: transparent;
+  text-shadow: #000 0 0 15px;
+  transition: all ease 0.2s;
+
+}
+
+.ssn:hover{
+  text-shadow: #000 0 0 0px;
+  /*transition: all ease 0.2s;*/
 }
